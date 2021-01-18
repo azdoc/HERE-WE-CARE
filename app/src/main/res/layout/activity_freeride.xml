@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#383c45"
+    tools:context=".Freeride">
+
+    <TextView
+        android:id="@+id/reporting"
+        android:text="FreeRide and Total Points"
+        android:textSize="34sp"
+        android:textAlignment="center"
+        android:textColor="#48dad0"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <de.codecrafters.tableview.TableView
+        android:id="@+id/tableview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "351401035181",
+    "firebase_url": "https://pickhere-7afaa.firebaseio.com",
+    "project_id": "pickhere-7afaa",
+    "storage_bucket": "pickhere-7afaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351401035181:android:64de46d47dc7a4f5",
+        "android_client_info": {
+          "package_name": "com.example.pickhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351401035181-0013tnahd360agsn1sl87l52leroaplh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pickhere",
+            "certificate_hash": "eea53b8529e62fe3a3fb1c7672855c7eb43ac8f7"
+          }
+        },
+        {
+          "client_id": "351401035181-lu95os92bnf6lidsmu9jugdgk7f830ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9tMGEmdahjA6d0p_h5fRRmzC0mDG1m-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351401035181-lu95os92bnf6lidsmu9jugdgk7f830ps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

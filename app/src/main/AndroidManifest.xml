@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pickhere">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ForgotpasswordActivity"></activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".Freeride" />
+        <activity android:name=".Leaderboard" />
+        <activity android:name=".Parking" />
+        <activity android:name=".Reporting" />
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".AddIncident"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.here.android.mpa.service.MapService"
+            android:exported="false"
+            android:label="{YOUR_LABEL_NAME}">
+            <intent-filter>
+                <action android:name="{YOUR_INTENT_NAME}" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.here.services.internal.LocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" />
+
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="sQwTPFTSTsqpbd3gkosm" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="CDn_jbQ6IOHHCHOgDNSZcQ" />
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="Wmsy308jhHaamJ5wZXKdLuQpUq+hPbODAyKkttqWVIMf21WkdNSGx2uXxZwFY8bIWgFV7rSC3rAc5C5yk9YVfBvYVfwXoGMBJ3xEGvQNKy1f3fESWoCVXX3dRoI7+4lmyVX1JpQ5FJ8A9veIC6WsdhAK/eUO+atvl8N1wMvYIQsSyfyjzsuUhGAIEIMezR2OnUIk1arJiPyy5sh3/xvry46SnD4iPYgCCywz5l2h+wR9WJmaziSf8Kuyd1Gn/2hrjSj/4u0/tEX20Td935j7GuoWDdoAmDvKgbYMgBLtjrzh+WzmW9uf64h6urT9NeOCFmbwPf3aL0BK7tRAqOnIRhRJ3jIInUnQ0G1V2nXn9+ejmwo53Fvfc70bPrwRxZ4gFz4hXY8TxcB4bUuTmGvtznBl8m/vGWLYCZRrgHSPATKGFoAZeQf/3z4t9Yjilb+H1tde4Yg5oPRGdevKpfrckqMfH/KJO9uLSMzF+LiaSklV9/xHTty/rgWQ+/Q3nKJ/1oaWD9U9q446ywMFWhwjZ0yTAKjljRcelgsaEvCQ7H1tl9vahfMEIIelqDAmpjgvnIWMs/cF82uoQBM2nXftLouPI++QaKe3jygDK4FtaXZa0/13JPYnvgWNqJ9YBms0WWumQ+Xyn+IkTdCopIdrpbCVDnaQSW+x347U6x7kk24=" />
+
+
+    </application>
+
+</manifest>

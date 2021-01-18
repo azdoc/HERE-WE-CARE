@@ -1,0 +1,26 @@
+<resources> <string name="app_name">PickHERE</string> <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
+    <string name="forgetpass">"forgot password ?" </string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="got_it">GOT IT</string>
+    <string name="welcome">Login Screen</string>
+    <string name="slide1_desc">A platform where you form a community...</string>
+    <string name="slide1_title">WELCOME TO HEREWECARE</string>
+    <string name="slide2_desc">Learn to develop mobile applications using popular HERE MAPS</string>
+    <string name="slide2_title">       Last Mile Connectivity</string>
+    <string name="slide3_desc">Learn to develop web applications using Here SDK</string>
+    <string name="slide3_title">Enabling a crowd sourcing platform for bike sharing app</string>
+    <string name="slide4_desc">Get some more interesting things on https://developer.here.com</string>
+    <string name="slide4_title">Green revolution or a public nuisance?</string>
+    <string name="get_started">Get Started</string>
+    <string name="check_it_out">Check It Out</string>
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#48dad0"
+    tools:context=".SignupActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="273dp"
+        android:layout_height="186dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/here_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Sign up"
+            android:layout_below="@+id/logo"
+            android:textSize="26sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="20dp"
+            android:id="@+id/signup"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_below="@+id/signup"
+            android:id="@+id/nameLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_name"
+            android:hint="Name"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameLayout"
+        android:layout_below="@+id/nameLayout"
+        android:layout_marginRight="@dimen/rightMargin"
+        android:layout_marginLeft="@dimen/leftMargin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_email"
+            android:hint="Email"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobileLayout"
+            android:layout_below="@+id/usernameLayout"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginLeft="@dimen/leftMargin">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLayout"
+            android:layout_below="@+id/mobileLayout"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginLeft="@dimen/leftMargin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_password"
+                android:hint="Password"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:textColor="@android:color/black"
+            android:background="@color/textColor"
+            android:textSize="16sp"
+            android:id="@+id/signUpBtn"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="@dimen/rightMargin"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_below="@id/passwordLayout"/>
+
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUpBtn"
+        android:layout_marginTop="51dp"></ProgressBar>
+
+    <TextView
+        android:id="@+id/signintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign in"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
